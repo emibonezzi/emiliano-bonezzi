@@ -3,8 +3,8 @@ import ProjectCard from "./ProjectCard";
 
 const Projects = () => {
   return (
-    <section id="projects">
-      <h1>Projects</h1>
+    <section id="projects" className="h-[100dvh] grid items-center snap-center">
+      <h1 className="text-[5.5rem] tracking-normal font-extrabold">Projects</h1>
       <div className="grid grid-cols-2">
         {projects.map((project) => (
           <ProjectCard

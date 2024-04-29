@@ -7,13 +7,16 @@ import Skills from "./components/Skills";
 
 function App() {
   return (
-    <>
+    <div
+      id="container"
+      className="snap-mandatory h-[100dvh] overflow-y-scroll snap-y"
+    >
       <Hero />
       <Intro />
       <Projects />
       <Skills />
       <Contacts />
-    </>
+    </div>
   );
 }
 
