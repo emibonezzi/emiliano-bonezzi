@@ -1,21 +1,24 @@
 const Intro = () => {
   return (
     <section
-      id="intro"
-      className="h-[100dvh] snap-center grid grid-cols-[1fr_1fr] items-center justify-center"
+      id="hero"
+      className="h-[100dvh] relative snap-center grid grid-cols-[700px] justify-center items-center"
     >
-      <p className="text-lg w-[75%]">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
-        inventore ratione non fuga quo, expedita possimus aliquid rerum,
-        voluptate recusandae voluptatem doloremque numquam eaque at laudantium
-        ullam id ab ipsum. Id, quasi suscipit dolorem ut at odio pariatur rem
-        officiis quod ipsa molestiae, doloremque porro magnam, possimus sapiente
-        recusandae earum ad molestias quam repudiandae sed laboriosam culpa
-        autem. Rerum, tenetur.
-      </p>
-      <h1 className="text-[5.5rem] text-right tracking-normal font-extrabold border-l-2">
-        My Story
-      </h1>
+      <div>
+        <h1 className="text-[7.5rem] tracking-tighter font-extrabold">
+          About Emi.
+        </h1>
+        <p className="text-2xl font-light">
+          I started off as a self-taught coder, building WordPress sites for
+          clients as a side gig. Craving more freedom in design, I jumped into
+          JavaScript and front-end development to really push the creative
+          boundaries.
+        </p>
+      </div>
+      {/*       <img
+        className="rounded-full w-[290px] justify-self-end border-[1px] p-1 border-black"
+        src="/src/assets/pro-pic.jpeg"
+      /> */}
     </section>
   );
 };
