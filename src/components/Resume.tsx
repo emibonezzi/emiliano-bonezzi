@@ -12,12 +12,12 @@ const Resume = () => {
         </h1>
       </div>
       {resume.map((experience) => (
-        <div className="snap-center w-[80%] lg:w-[65%] grid lg:grid-cols-[2fr_1fr]">
+        <div className="snap-center w-[80%] lg:w-[65%] grid items-center lg:grid-cols-[2fr_1fr]">
           <h1 className="text-[2em] leading-[30px] lg:leading-normal lg:text-6xl tracking-tight lg:tracking-tighter font-extrabold">
             {experience.position}
           </h1>
-          <div className="flex flex-col lg:text-right font-light">
-            <p className="text-lg">{experience.period}</p>
+          <div className="flex flex-col mt-3 lg:mt-0 text-xs lg:text-sm lg:text-right font-light">
+            <p>{experience.period}</p>
             <p className="italic">{experience.company}</p>
           </div>
           <ul className="mt-5 text-sm lg:text-xl font-light list-disc">

@@ -9,7 +9,6 @@ export const resume = [
       "Assist clients in expanding their online presence and reaching a wider audience",
       "Customize existing WordPress themes according to clients' unique needs",
       "Enhance website interactivity with advanced CSS and JavaScript techniques",
-      "Clients include www.vedercibene.com  www.osteriadelcaccetta.it and www.osteriabarlafus.it",
     ],
   },
   {
