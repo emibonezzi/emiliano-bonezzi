@@ -4,7 +4,7 @@ const Projects = () => {
   return (
     <section
       id="projects"
-      className="h-[100vh] snap-mandatory snap-x overflow-x-scroll snap-center grid grid-cols-[75vw_100vw_100vw_100vw_100vw] items-center"
+      className="h-screen snap-mandatory snap-x overflow-x-scroll snap-center grid grid-cols-[75vw_100vw_100vw_100vw_100vw] items-center"
     >
       <div className="snap-center">
         <h1 className="text-[3em] pl-5 lg:text-[7.5rem] tracking-tight lg:tracking-tighter font-extrabold">
@@ -13,7 +13,7 @@ const Projects = () => {
       </div>
       {projects.map((project) => (
         <div className="snap-center w-[80%] lg:w-[65%]">
-          <h1 className="text-[2em] leading-[30px] lg:leading-tight lg:text-[7.5em] tracking-tight lg:tracking-tighter font-extrabold">
+          <h1 className="text-[2.5em] leading-[30px] lg:leading-tight lg:text-[7.5em] tracking-tight lg:tracking-tighter font-extrabold">
             {project.name}
           </h1>
           <div className="flex gap-3">
@@ -23,7 +23,7 @@ const Projects = () => {
               </span>
             ))}
           </div>
-          <p className="mt-5 text-xl lg:text-2xl font-light">
+          <p className="mt-5 text-lg lg:text-2xl font-light">
             {project.description}
           </p>
 
