@@ -23,11 +23,11 @@ const Projects = () => {
               </span>
             ))}
           </div>
-          <p className="mt-5 text-lg lg:text-2xl font-light">
+          <p className="mt-5 text-sm lg:text-2xl font-light">
             {project.description}
           </p>
 
-          <div className="flex text-white justify-center gap-5 mt-5 text-6xl">
+          <div className="flex text-white justify-center gap-5 mt-5 text-5xl lg:text-6xl">
             {project.links.map((link) => (
               <a target="_blank" href={link.url}>
                 {" "}
