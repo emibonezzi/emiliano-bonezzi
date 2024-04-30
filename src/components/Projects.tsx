@@ -4,7 +4,7 @@ const Projects = () => {
   return (
     <section
       id="projects"
-      className="h-[100dvh] snap-mandatory snap-x overflow-x-scroll snap-center grid grid-cols-[75vw_100vw_100vw_100vw_100vw] items-center"
+      className="h-[100vh] snap-mandatory snap-x overflow-x-scroll snap-center grid grid-cols-[75vw_100vw_100vw_100vw_100vw] items-center"
     >
       <div className="snap-center">
         <h1 className="text-[3em] pl-5 lg:text-[7.5rem] tracking-tight lg:tracking-tighter font-extrabold">
