@@ -3,18 +3,18 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className="h-[100dvh] relative snap-center grid grid-cols-[700px] justify-center items-center"
+      className="h-[100dvh] relative snap-center grid grid-cols-[280px] lg:grid-cols-[700px] justify-center items-center"
     >
       <div>
-        <h1 className="text-[7.5rem] text-left tracking-tighter font-extrabold">
+        <h1 className="text-[3em] lg:text-[7.5rem] tracking-tight lg:tracking-tighter font-extrabold">
           Hi, this is Emi.
         </h1>
-        <p className="text-2xl text-left font-light">
+        <p className="text-lg lg:text-2xl font-light">
           Web developer based in NYC.
           <br /> I like to create intuitive and visually appealing digital
           experiences.
         </p>
-        <div className="flex text-white justify-center gap-5 mt-5 text-6xl">
+        <div className="flex text-white justify-center gap-5 mt-5 text-5xl lg:text-6xl">
           <a target="_blank" href="https://github.com/emibonezzi">
             <Icon icon="mdi:github" />
           </a>
