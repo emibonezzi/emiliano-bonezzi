@@ -55,23 +55,4 @@ export const projects = [
       },
     ],
   },
-  {
-    name: "Weather App",
-    thumbnail: "/",
-    description:
-      "Developed a responsive web application using React and TypeScript, leveraging OpenWeatherMap and IP Geo Location APIs for dynamic weather data retrieval, and utilized React hooks for robust state management and asynchronous operations.",
-    stack: ["Chakra UI", "React", "Typescript"],
-    links: [
-      {
-        icon: <Icon icon="mdi:external-link" />,
-        title: "Live DEMO",
-        url: "https://guess-the-player-nine.vercel.app/",
-      },
-      {
-        icon: <FaGithub />,
-        title: "GitHub Repository",
-        url: "https://github.com/emibonezzi/guess-the-player",
-      },
-    ],
-  },
 ];
