@@ -18,7 +18,7 @@ const Contacts = () => {
       </div>
       <img
         className="rounded-full w-[290px] border-[1px] p-1 border-black"
-        src="../assets/pro-pic.jpeg"
+        src="https://media.licdn.com/dms/image/D4D03AQFVX-RWjIIyjA/profile-displayphoto-shrink_800_800/0/1698223282520?e=1720051200&v=beta&t=tzYp6V4oYhjZ8qhpmG-x_oIl86UtsR8fjULAWxUQY9E"
       />
     </section>
   );
