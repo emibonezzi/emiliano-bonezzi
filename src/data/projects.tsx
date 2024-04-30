@@ -1,6 +1,5 @@
 import { Icon } from "@iconify/react/dist/iconify.js";
 import { FaGithub } from "react-icons/fa";
-import { MdOutlineLiveTv } from "react-icons/md";
 
 export const projects = [
   {
