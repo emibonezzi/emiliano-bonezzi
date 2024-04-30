@@ -23,16 +23,16 @@ export const projects = [
     ],
   },
   {
-    name: "Wordpress Blog",
+    name: "Osteria Del Caccetta",
     thumbnail: "/src/assets/vederci_bene.mov",
     description:
-      "Complete redesign of a Wordpress blog, tailoring the site’s aesthetics and functionality to meet user preferences and enhance user engagement. This project required knowledge of PHP to customize backend functionalities and in CSS for responsive and visually appealing front-end designs. The redesign also involved improving SEO practices and ensuring the blog's compatibility across different browsers and devices.",
+      "Complete redesign of a Wordpress website, tailoring the site’s aesthetics and functionality to meet user preferences and enhance user engagement. This project required knowledge of PHP to customize backend functionalities and in CSS for responsive and visually appealing front-end designs. The redesign also involved improving SEO practices and ensuring the blog's compatibility across different browsers and devices.",
     stack: ["CSS", "Wordpress", "PHP"],
     links: [
       {
         icon: <Icon icon="mdi:external-link" />,
         title: "Live DEMO",
-        url: "https://www.vedercibene.com/",
+        url: "https://osteriadelcaccetta.it/",
       },
     ],
   },

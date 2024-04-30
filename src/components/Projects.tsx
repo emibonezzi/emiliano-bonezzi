@@ -13,7 +13,7 @@ const Projects = () => {
       </div>
       {projects.map((project) => (
         <div className="snap-center w-[80%] lg:w-[65%]">
-          <h1 className="text-[2.5em] leading-[30px] lg:leading-tight lg:text-[7.5em] tracking-tight lg:tracking-tighter font-extrabold">
+          <h1 className="text-[2.5em] leading-[38px] lg:leading-tight lg:text-[7.0em] tracking-tight lg:tracking-tighter font-extrabold">
             {project.name}
           </h1>
           <div className="flex gap-3">
