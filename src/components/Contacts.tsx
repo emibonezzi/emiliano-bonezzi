@@ -9,7 +9,7 @@ const Contacts = () => {
           Let's connect
         </h1>
         <p className="text-lg lg:text-2xl font-light">
-          Send an email to:
+          Reach out via email
           <br />
           <span className="underline">
             <a href="mailto:me@emilianobonezzi.com">me@emilianobonezzi.com</a>
