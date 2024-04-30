@@ -3,7 +3,7 @@ import { resume } from "../data/resume";
 const Skills = () => {
   return (
     <section
-      id="hero"
+      id="resume"
       className="h-[100dvh] snap-mandatory snap-x overflow-x-scroll snap-center grid grid-cols-[85vw_100vw_100vw_100vw_100vw_100vw] items-center"
     >
       <div className="snap-center">

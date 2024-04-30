@@ -1,7 +1,7 @@
 const Contacts = () => {
   return (
     <section
-      id="hero"
+      id="contacts"
       className="h-[100dvh] relative snap-center grid grid-cols-[700px] justify-center items-center"
     >
       <div>

@@ -15,9 +15,18 @@ const Hero = () => {
           experiences.
         </p>
         <div className="flex text-white justify-center gap-5 mt-5 text-6xl">
-          <Icon icon="mdi:github" />
-          <Icon icon="mdi:linkedin" />
-          <Icon icon="academicons:cv" />
+          <a target="_blank" href="https://github.com/emibonezzi">
+            <Icon icon="mdi:github" />
+          </a>
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/emiliano-bonezzi/"
+          >
+            <Icon icon="mdi:linkedin" />
+          </a>
+          <a href="#resume">
+            <Icon icon="academicons:cv" />
+          </a>
         </div>
       </div>
       {/*       <img

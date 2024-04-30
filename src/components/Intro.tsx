@@ -1,7 +1,7 @@
 const Intro = () => {
   return (
     <section
-      id="hero"
+      id="intro"
       className="h-[100dvh] relative snap-center grid grid-cols-[700px] justify-center items-center"
     >
       <div>
