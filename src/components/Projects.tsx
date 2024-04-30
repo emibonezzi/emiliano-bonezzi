@@ -12,7 +12,7 @@ const Projects = () => {
         </h1>
       </div>
       {projects.map((project) => (
-        <div className="snap-center w-[65%]">
+        <div className="snap-center w-[80%] lg:w-[65%]">
           <h1 className="text-[2em] leading-[30px] lg:leading-tight lg:text-[7.5em] tracking-tight lg:tracking-tighter font-extrabold">
             {project.name}
           </h1>
@@ -23,7 +23,7 @@ const Projects = () => {
               </span>
             ))}
           </div>
-          <p className="mt-5 text-sm lg:text-2xl font-light">
+          <p className="mt-5 text-xl lg:text-2xl font-light">
             {project.description}
           </p>
 
