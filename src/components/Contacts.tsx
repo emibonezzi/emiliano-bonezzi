@@ -18,7 +18,7 @@ const Contacts = () => {
       </div>
       <img
         className="rounded-full w-[290px] border-[1px] p-1 border-black"
-        src="/src/assets/pro-pic.jpeg"
+        src="../assets/pro-pic.jpeg"
       />
     </section>
   );
