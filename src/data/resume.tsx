@@ -1,5 +1,6 @@
 export const resume = [
   {
+    id: 1,
     position: "Freelance Web Developer",
     period: "January 2021 - Present",
     company: "Self Employed",
@@ -12,6 +13,7 @@ export const resume = [
     ],
   },
   {
+    id: 2,
     position: "Data Analyst",
     period: "November 2020 – December 2023",
     company: "Esselunga S.P.A",
@@ -25,6 +27,7 @@ export const resume = [
     ],
   },
   {
+    id: 3,
     position: "Front Desk Receptionist",
     period: "November 2017 - November 2020",
     company: "D.H.L Express",
@@ -36,6 +39,7 @@ export const resume = [
     ],
   },
   {
+    id: 4,
     position: "Internal Sales Advisor",
     period: "May 2015 - November 2017",
     company: "TVH",

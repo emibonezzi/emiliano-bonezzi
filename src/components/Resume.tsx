@@ -1,18 +1,31 @@
+import { Icon } from "@iconify/react/dist/iconify.js";
 import { resume } from "../data/resume";
 
 const Resume = () => {
   return (
     <section
       id="resume"
-      className="h-[100dvh] snap-mandatory snap-x overflow-x-scroll snap-center grid grid-cols-[85vw_100vw_100vw_100vw_100vw_100vw] items-center"
+      className="h-[100dvh] snap-mandatory snap-x overflow-x-scroll snap-center grid grid-cols-[100vw_100vw_100vw_100vw_100vw_100vw] items-center scroll-smooth"
     >
-      <div className="snap-center">
-        <h1 className="text-[3em] pl-5 lg:text-[7.5rem] tracking-tight lg:tracking-tighter font-extrabold">
+      <div
+        id="0resume"
+        className="snap-center flex flex-col justify-center items-center"
+      >
+        <h1 className="text-[3em] text-center lg:text-[7.5rem] tracking-tight lg:tracking-tighter font-extrabold">
           Resume
         </h1>
+        <a href="#1resume">
+          <Icon
+            className="text-[3em] lg:text-[4em] mt-3 arrow"
+            icon="mingcute:arrows-right-fill"
+          />
+        </a>
       </div>
       {resume.map((experience) => (
-        <div className="snap-center w-[80%] lg:w-[65%] grid items-center lg:grid-cols-[2fr_1fr]">
+        <div
+          id={`${experience.id.toString()}resume`}
+          className="snap-center grid items-center lg:grid-cols-[2fr_1fr] px-[50px] lg:px-[200px]"
+        >
           <h1 className="text-[2em] leading-[30px] lg:leading-normal lg:text-6xl tracking-tight lg:tracking-tighter font-extrabold">
             {experience.position}
           </h1>
@@ -20,11 +33,38 @@ const Resume = () => {
             <p>{experience.period}</p>
             <p className="italic">{experience.company}</p>
           </div>
-          <ul className="mt-5 text-sm lg:text-xl font-light list-disc">
+          <ul className="mt-5 text-sm lg:text-xl font-light list-disc lg:col-span-2">
             {experience.bullet_points.map((point) => (
               <li className="mt-2">{point}</li>
             ))}
           </ul>
+          <div className="flex justify-between mt-[100px] lg:col-span-2">
+            <a
+              href={`#${
+                experience.id === 0
+                  ? "0resume"
+                  : `${(experience.id - 1).toString()}resume`
+              }`}
+            >
+              <Icon
+                className="text-[3em] lg:text-[4em] mt-3 arrow"
+                icon="mingcute:arrows-left-fill"
+              />
+            </a>
+            <a
+              href={`#${
+                experience.id === resume.length
+                  ? "0resume"
+                  : `${(experience.id + 1).toString()}resume`
+              }
+              `}
+            >
+              <Icon
+                className="arrow text-[3em] lg:text-[4em] mt-3"
+                icon="mingcute:arrows-right-fill"
+              />
+            </a>
+          </div>
         </div>
       ))}
     </section>

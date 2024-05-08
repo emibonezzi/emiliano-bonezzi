@@ -1,18 +1,31 @@
+import { Icon } from "@iconify/react/dist/iconify.js";
 import { projects } from "../data/projects";
-
+/*  */
 const Projects = () => {
   return (
     <section
       id="projects"
-      className="h-screen snap-mandatory snap-x overflow-x-scroll snap-center grid grid-cols-[75vw_100vw_100vw_100vw] items-center"
+      className="h-[100dvh] snap-mandatory snap-x overflow-x-scroll snap-center grid grid-cols-[100dvw_100dvw_100dvw_100dvw] items-center scroll-smooth"
     >
-      <div className="snap-center">
-        <h1 className="text-[3em] pl-5 lg:text-[7.5rem] tracking-tight lg:tracking-tighter font-extrabold">
+      <div
+        id="0"
+        className="snap-center flex flex-col justify-center items-center"
+      >
+        <h1 className="text-[3em] lg:text-[7.5rem] text-center tracking-tight lg:tracking-tighter font-extrabold">
           Projects
         </h1>
+        <a href="#1">
+          <Icon
+            className="text-[3em] lg:text-[4em] mt-3 arrow"
+            icon="mingcute:arrows-right-fill"
+          />
+        </a>
       </div>
       {projects.map((project) => (
-        <div className="snap-center w-[80%] lg:w-[65%]">
+        <div
+          id={project.id.toString()}
+          className="snap-center px-[50px] lg:px-[200px]"
+        >
           <h1 className="text-[2.5em] leading-[38px] lg:leading-tight lg:text-[7.0em] tracking-tight lg:tracking-tighter font-extrabold">
             {project.name}
           </h1>
@@ -30,10 +43,31 @@ const Projects = () => {
           <div className="flex text-white justify-center gap-5 mt-5 text-5xl lg:text-6xl">
             {project.links.map((link) => (
               <a target="_blank" href={link.url}>
-                {" "}
-                {link.icon}{" "}
+                {link.icon}
               </a>
             ))}
+          </div>
+          <div className="flex justify-between">
+            <a
+              href={`#${project.id === 0 ? "0" : (project.id - 1).toString()}`}
+            >
+              <Icon
+                className="text-[3em] lg:text-[4em] mt-3 arrow"
+                icon="mingcute:arrows-left-fill"
+              />
+            </a>
+            <a
+              href={`#${
+                project.id === projects.length
+                  ? "0"
+                  : (project.id + 1).toString()
+              }`}
+            >
+              <Icon
+                className="arrow text-[3em] lg:text-[4em] mt-3"
+                icon="mingcute:arrows-right-fill"
+              />
+            </a>
           </div>
         </div>
       ))}

@@ -3,6 +3,7 @@ import { FaGithub } from "react-icons/fa";
 
 export const projects = [
   {
+    id: 1,
     name: "Guess The Player",
     thumbnail: "/src/assets/guess_the_player2.mov",
     description:
@@ -23,6 +24,7 @@ export const projects = [
     ],
   },
   {
+    id: 2,
     name: "Osteria Del Caccetta",
     thumbnail: "/src/assets/vederci_bene.mov",
     description:
@@ -37,6 +39,7 @@ export const projects = [
     ],
   },
   {
+    id: 3,
     name: "Weather App",
     thumbnail: "/src/assets/weather_app.mov",
     description:
