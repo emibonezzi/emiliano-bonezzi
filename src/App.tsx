@@ -5,7 +5,6 @@ import Intro from "./components/Intro";
 import NewProjects from "./components/NewProjects";
 import NewResume from "./components/NewResume";
 import NewSkills from "./components/NewSkills";
-import Skills from "./components/Skills";
 
 function App() {
   return (
