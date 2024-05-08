@@ -5,7 +5,7 @@ const Resume = () => {
   return (
     <section
       id="resume"
-      className="h-[100dvh] snap-mandatory snap-x overflow-x-scroll snap-center grid grid-cols-[100vw_100vw_100vw_100vw_100vw_100vw] items-center scroll-smooth"
+      className="h-screen snap-mandatory snap-x overflow-x-scroll snap-center grid grid-cols-[100vw_100vw_100vw_100vw_100vw_100vw] items-center scroll-smooth"
     >
       <div
         id="0resume"
@@ -38,7 +38,7 @@ const Resume = () => {
               <li className="mt-2">{point}</li>
             ))}
           </ul>
-          <div className="flex justify-between mt-[100px] lg:col-span-2">
+          <div className="flex justify-between mt-[20px] lg:col-span-2">
             <a
               href={`#${
                 experience.id === 0

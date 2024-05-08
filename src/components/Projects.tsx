@@ -5,7 +5,7 @@ const Projects = () => {
   return (
     <section
       id="projects"
-      className="h-screen snap-mandatory snap-x overflow-x-scroll snap-center grid grid-cols-[100dvw_100dvw_100dvw_100dvw] items-center scroll-smooth"
+      className="h-screen snap-mandatory snap-x overflow-x-scroll snap-center grid grid-cols-[100vw_100vw_100vw_100vw] items-center scroll-smooth"
     >
       <div
         id="0"
