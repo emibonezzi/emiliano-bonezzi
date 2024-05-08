@@ -23,7 +23,7 @@ const NewResume = () => {
       {resume.map((experience) => (
         <article className="h-[100dvh] snap-center grid grid-cols-[280px] lg:grid-cols-[700px] justify-center items-center">
           <div>
-            <h1 className="text-[2em] leading-[30px] lg:leading-normal lg:text-6xl tracking-tight lg:tracking-tighter font-extrabold">
+            <h1 className="text-[1.5em] leading-[30px] lg:leading-normal lg:text-6xl tracking-tight lg:tracking-tighter font-extrabold">
               {experience.position}
             </h1>
             <div className="flex flex-col mt-3 lg:mt-0 text-xs lg:text-sm font-light">
