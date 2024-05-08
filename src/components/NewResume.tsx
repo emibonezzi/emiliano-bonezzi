@@ -4,7 +4,7 @@ const NewResume = () => {
   return (
     <>
       <section
-        id="projects"
+        id="resume"
         className="h-[100dvh]  snap-center grid grid-cols-[280px] lg:grid-cols-[700px] justify-center items-center"
       >
         <div>

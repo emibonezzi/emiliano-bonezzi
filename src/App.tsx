@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import Intro from "./components/Intro";
 import NewProjects from "./components/NewProjects";
 import NewResume from "./components/NewResume";
+import NewSkills from "./components/NewSkills";
 import Skills from "./components/Skills";
 
 function App() {
@@ -17,7 +18,7 @@ function App() {
         <Intro />
         <NewProjects />
         <NewResume />
-        <Skills />
+        <NewSkills />
         <Contacts />
       </div>
     </>
