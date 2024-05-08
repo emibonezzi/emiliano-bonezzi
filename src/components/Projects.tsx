@@ -26,7 +26,7 @@ const Projects = () => {
           id={project.id.toString()}
           className="snap-center px-[50px] lg:px-[200px]"
         >
-          <h1 className="text-[2.5em] leading-[38px] lg:leading-tight lg:text-[7.0em] tracking-tight lg:tracking-tighter font-extrabold">
+          <h1 className="text-[2em] leading-[38px] lg:leading-tight lg:text-[7.0em] tracking-tight lg:tracking-tighter font-extrabold">
             {project.name}
           </h1>
           <div className="flex gap-3">
@@ -36,7 +36,7 @@ const Projects = () => {
               </span>
             ))}
           </div>
-          <p className="mt-5 text-lg lg:text-2xl font-light">
+          <p className="mt-5 text-sm lg:text-2xl font-light">
             {project.description}
           </p>
 
