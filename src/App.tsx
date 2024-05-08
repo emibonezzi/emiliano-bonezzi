@@ -3,7 +3,6 @@ import Contacts from "./components/Contacts";
 import Hero from "./components/Hero";
 import Intro from "./components/Intro";
 import NewProjects from "./components/NewProjects";
-import Projects from "./components/Projects";
 import Resume from "./components/Resume";
 import Skills from "./components/Skills";
 
