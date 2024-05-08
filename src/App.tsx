@@ -8,17 +8,19 @@ import Skills from "./components/Skills";
 
 function App() {
   return (
-    <div
-      id="container"
-      className="snap-mandatory h-screen overflow-y-scroll snap-y scroll-smooth"
-    >
-      <Hero />
-      <Intro />
-      <Projects />
-      <Resume />
-      <Skills />
-      <Contacts />
-    </div>
+    <>
+      <div
+        id="container"
+        className="snap-mandatory h-screen overflow-y-scroll snap-y scroll-smooth"
+      >
+        <Hero />
+        <Intro />
+        <Projects />
+        <Resume />
+        <Skills />
+        <Contacts />
+      </div>
+    </>
   );
 }
 

@@ -1,4 +1,5 @@
 import { Icon } from "@iconify/react";
+
 const Hero = () => {
   return (
     <section
