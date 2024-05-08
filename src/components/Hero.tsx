@@ -3,7 +3,7 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className="h-[100dvh] relative snap-center grid grid-cols-[280px] lg:grid-cols-[700px] justify-center items-center"
+      className="h-screen relative snap-center grid grid-cols-[280px] lg:grid-cols-[700px] justify-center items-center"
     >
       <div>
         <h1 className="text-[3em] lg:text-[7.5rem] tracking-tight lg:tracking-tighter font-extrabold">
