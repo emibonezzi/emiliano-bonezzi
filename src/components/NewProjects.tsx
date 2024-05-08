@@ -20,12 +20,9 @@ const NewProjects = () => {
         </div>
       </section>
       {projects.map((project) => (
-        <article
-          id={project.id.toString()}
-          className="h-screen  snap-center grid grid-cols-[280px] lg:grid-cols-[700px] justify-center items-center"
-        >
+        <article className="h-[100dvh] snap-center grid grid-cols-[280px] lg:grid-cols-[700px] justify-center items-center">
           <div>
-            <h1 className="text-[2em] leading-[38px] lg:leading-tight lg:text-[5em] tracking-tight lg:tracking-tighter font-extrabold">
+            <h1 className="text-[1.8em] leading-[38px] lg:leading-tight lg:text-[5em] tracking-tight lg:tracking-tighter font-extrabold">
               {project.name}
             </h1>
             <div className="flex gap-3">

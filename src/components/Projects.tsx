@@ -22,10 +22,7 @@ const Projects = () => {
         </a>
       </div>
       {projects.map((project) => (
-        <div
-          id={project.id.toString()}
-          className="snap-center px-[50px] lg:px-[200px]"
-        >
+        <div className="snap-center px-[50px] lg:px-[200px]">
           <h1 className="text-[2em] leading-[38px] lg:leading-tight lg:text-[7.0em] tracking-tight lg:tracking-tighter font-extrabold">
             {project.name}
           </h1>
@@ -71,26 +68,6 @@ const Projects = () => {
           </div>
         </div>
       ))}
-      {/*       <img
-        className="rounded-full w-[290px] justify-self-end border-[1px] p-1 border-black"
-        src="/src/assets/pro-pic.jpeg"
-      /> */}
-      {/* <section
-      id="projects"
-      className="h-[100dvh] snap-center gap-y-2 grid grid-cols-[1fr] items-center justify-center"
-    >
-      <div className="snap-mandatory border-2 p-5 snap-x grid grid-cols-[95%_100%_100%_100%] items-center overflow-x-scroll">
-        {projects.map((project) => (
-          <ProjectCard
-            name={project.name}
-            thumbnail={project.thumbnail}
-            description={project.description}
-            stack={project.stack}
-            links={project.links}
-          />
-        ))}
-      </div>
-    </section> */}
     </section>
   );
 };
