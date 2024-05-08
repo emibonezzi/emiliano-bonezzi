@@ -11,7 +11,7 @@ function App() {
     <>
       <div
         id="container"
-        className="snap-mandatory h-screen overflow-y-scroll snap-y scroll-smooth"
+        className="snap-mandatory h-[100dvh] overflow-y-scroll snap-y scroll-smooth"
       >
         <Hero />
         <Intro />
