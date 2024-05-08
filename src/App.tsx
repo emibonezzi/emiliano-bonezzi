@@ -4,7 +4,6 @@ import Hero from "./components/Hero";
 import Intro from "./components/Intro";
 import NewProjects from "./components/NewProjects";
 import NewResume from "./components/NewResume";
-import Resume from "./components/Resume";
 import Skills from "./components/Skills";
 
 function App() {
