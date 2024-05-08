@@ -5,7 +5,7 @@ const Skills = () => {
   return (
     <section
       id="skills"
-      className={`h-screen snap-mandatory snap-x overflow-x-scroll snap-center grid grid-cols-[100vw_100vw_100vw_100vw_100vw_100vw_100vw] items-center`}
+      className="h-[100dvh] snap-mandatory snap-x overflow-x-scroll snap-center grid grid-cols-[100vw_100vw_100vw_100vw_100vw_100vw_100vw] items-center"
     >
       <div
         id="0skill"
