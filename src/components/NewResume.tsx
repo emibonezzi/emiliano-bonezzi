@@ -1,5 +1,3 @@
-import React from "react";
-import { skills } from "../data/skills";
 import { resume } from "../data/resume";
 
 const NewResume = () => {
