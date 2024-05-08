@@ -40,6 +40,21 @@ export const projects = [
   },
   {
     id: 3,
+    name: "Vederci Bene",
+    thumbnail: "/src/assets/weather_app.mov",
+    description:
+      "I recently restyled a WordPress blog to better meet customer needs and ensure a more engaging layout. I revamped the design for improved navigation and readability, customized functionalities, and optimized the blog for responsiveness across all devices.",
+    stack: ["CSS", "Wordpress", "PHP"],
+    links: [
+      {
+        icon: <Icon icon="mdi:external-link" />,
+        title: "Live DEMO",
+        url: "https://www.vedercibene.com",
+      },
+    ],
+  },
+  {
+    id: 3,
     name: "Weather App",
     thumbnail: "/src/assets/weather_app.mov",
     description:
