@@ -16,7 +16,7 @@ const Skills = () => {
         </h1>
         <a href="#1skill">
           <Icon
-            className="text-[3em] lg:text-[4em] mt-3 arrow"
+            className="text-[2em] lg:text-[4em] mt-3 arrow"
             icon="mingcute:arrows-right-fill"
           />
         </a>
@@ -39,7 +39,7 @@ const Skills = () => {
               }`}
             >
               <Icon
-                className="text-[3em] lg:text-[4em] mt-3 arrow"
+                className="text-[2em] lg:text-[4em] mt-3 arrow"
                 icon="mingcute:arrows-left-fill"
               />
             </a>
@@ -52,7 +52,7 @@ const Skills = () => {
               `}
             >
               <Icon
-                className="arrow text-[3em] lg:text-[4em] mt-3"
+                className="arrow text-[2em] lg:text-[4em] mt-3"
                 icon="mingcute:arrows-right-fill"
               />
             </a>

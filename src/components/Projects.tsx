@@ -16,7 +16,7 @@ const Projects = () => {
         </h1>
         <a href="#1">
           <Icon
-            className="text-[3em] lg:text-[4em] mt-3 arrow"
+            className="text-[2em] lg:text-[4em] mt-3 arrow"
             icon="mingcute:arrows-right-fill"
           />
         </a>
@@ -52,7 +52,7 @@ const Projects = () => {
               href={`#${project.id === 0 ? "0" : (project.id - 1).toString()}`}
             >
               <Icon
-                className="text-[3em] lg:text-[4em] mt-3 arrow"
+                className="text-[2em] lg:text-[4em] mt-3 arrow"
                 icon="mingcute:arrows-left-fill"
               />
             </a>
@@ -64,7 +64,7 @@ const Projects = () => {
               }`}
             >
               <Icon
-                className="arrow text-[3em] lg:text-[4em] mt-3"
+                className="arrow text-[2em] lg:text-[4em] mt-3"
                 icon="mingcute:arrows-right-fill"
               />
             </a>
