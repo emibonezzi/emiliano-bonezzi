@@ -8,7 +8,7 @@ export const projects = [
     thumbnail: "/src/assets/guess_the_player2.mov",
     description:
       "Developed a full stack web application consisting of a serverless backend and a user-friendly frontend. The backend, built with Express.js and deployed on AWS Lambda, scrapes job listings from the New York State jobs website using Puppeteer and serves them through a REST API. The frontend, created with React, TypeScript, Chakra UI, React Query, and React Router, provides a responsive interface for users to explore job listings. Implemented advanced features such as query-based job searching and  integration with the backend API.",
-    stack: ["Chakra UI", "React", "Typescript", "Puppeteer", "AWS Lambda"],
+    stack: ["React", "Typescript", "Puppeteer", "AWS"],
     links: [
       {
         icon: <Icon icon="mdi:external-link" />,
