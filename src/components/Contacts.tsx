@@ -1,3 +1,5 @@
+import propic from "../data/propic.jpeg";
+
 const Contacts = () => {
   return (
     <section
@@ -11,7 +13,7 @@ const Contacts = () => {
         <div className="flex gap-3 lg:justify-between items-center">
           <img
             className="rounded-full w-[80px] lg:w-[100px] border-[1px] border-black"
-            src="https://media.licdn.com/dms/image/D4D03AQFVX-RWjIIyjA/profile-displayphoto-shrink_800_800/0/1698223282520?e=1720051200&v=beta&t=tzYp6V4oYhjZ8qhpmG-x_oIl86UtsR8fjULAWxUQY9E"
+            src={propic}
           />
           <p className="text-lg lg:text-2xl font-light">
             Reach out via email
